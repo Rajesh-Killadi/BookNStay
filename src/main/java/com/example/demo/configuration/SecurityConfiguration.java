@@ -53,6 +53,8 @@ public class SecurityConfiguration {
 	            .requestMatchers(HttpMethod.GET,"user/{id}").permitAll()// Allow PUT to /user for ADMIN and USER
 	            
 	            .requestMatchers("/h2-console/**").permitAll()  // Allow access to H2 console
+	            .requestMatchers("/swagger-ui/**").permitAll()  // Allow access to Swagger UI
+	            .requestMatchers("/v3/api-docs/**").permitAll()
 	            .requestMatchers("/**").permitAll()  // Allow access to other endpoints
 	            .anyRequest().authenticated())  // Authenticate all other requests
 //	        .csrf(csrf -> csrf
