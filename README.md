@@ -19,4 +19,4 @@ BookNStay is a REST API designed for managing room availability, pricing, and st
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Rajesh-Killadi/BookNStay.git
