@@ -1,7 +1,7 @@
 
 ### **BookNStay README**
 
-```markdown
+
 # BookNStay
 
 ## Overview
