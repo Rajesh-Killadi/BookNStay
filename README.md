@@ -1,6 +1,4 @@
 
-### **BookNStay README**
-
 
 # BookNStay
 
